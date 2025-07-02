@@ -1,0 +1,16 @@
+{
+  "name": "imjen",
+  "version": "0.0.8",
+  "author": "imjen Contributors",
+  "bin": {
+    "imjen": "./dist/imjen"
+  },
+  "scripts": {
+    "build": "rm -rf dist && deno task build",
+    "prepublishOnly": "npm run build"
+  },
+  "files": ["dist"],
+  "dependencies": {
+    "jimp": "^1.6.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "(cd src && deno compile --allow-all --no-check --output ../dist/imjen ./main.ts) && cp imjen.example.config.jsonc dist/imjen.example.config.jsonc"
+  },
+  "imports": {
+    "@openai/openai": "jsr:@openai/openai@^5.8.2",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}

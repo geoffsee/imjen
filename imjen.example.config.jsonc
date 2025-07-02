@@ -1,0 +1,32 @@
+{
+  // Optional: Set API key in config instead of environment
+  // "OPENAI_API_KEY": "your_key_here",
+
+  // Default dimensions (optional)
+  "width": 1024,
+  "height": 1024,
+
+  // Default prompt template (optional)
+  "promptTemplate": "ui-icon",
+
+  // Generate multiple images
+  "images": [
+    {
+      "description": "Compass Rose for the central navigation display",
+      "promptArg": "minimal flat compass rose icon",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "description": "Wind Direction Arrow",
+      "promptTemplate": "flat-icon",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "description": "Settings Gear Icon",
+      "promptTemplate": "outline-icon"
+    }
+    // Add more objects as needed
+  ]
+}
